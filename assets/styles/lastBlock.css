@@ -1,0 +1,49 @@
+
+.last-container {
+    margin-top: 8vh;
+    color: #4E6A2B;
+}
+
+.last-block-line {
+    width: 40%;
+    text-align: center;
+}
+
+.last-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-block-infos {
+    width: 33%;
+    margin-left: 5vw;
+}
+
+.form {
+    width: 33%;
+    margin-right: 5vw;
+    border: 1px solid #4E6A2B;
+    padding: 1rem;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    max-height: 35vw;
+    align-self: center;
+}
+
+.form-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-2 {
+    border-radius: 5em;
+    width: 20%;
+    padding: 0.6em;
+    color: #4E6A2B;
+    font-weight: bold;
+    border: 1px solid  #4E6A2B;
+    background-color: white;
+    align-self: end;
+    margin-top: 1vw;
+    box-shadow: 2px 2px 2px black;
+}

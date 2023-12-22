@@ -11,3 +11,5 @@ import './styles/navbar.css';
 import './styles/greenBackground.css';
 import './styles/secondBlock.css';
 import './styles/thirdBlock.css';
+import './styles/lastBlock.css';
+import './styles/footer.css';

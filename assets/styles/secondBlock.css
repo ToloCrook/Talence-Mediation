@@ -1,16 +1,13 @@
 .second-container {
     color: #4E6A2B;
     margin-top: 65vh;
-    /*position: static;*/
 }
 
 .second-block {
     color: #4E6A2B;
-    /*max-width: 70%;*/
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    /*margin: auto;*/
 }
 
 .second-block-text {
