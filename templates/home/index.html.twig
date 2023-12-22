@@ -1,20 +1,55 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Talence Médiation{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+        <div class="green-background">
+            <img class="main-background-img" src="{{ asset('build/images/main-background.png') }}" alt="desktop-dalle">
+            <div class="intro-text-bloc">
+                <div class="intro-text">
+                    <h2>
+                    <span class="light"
+                          style="font-size: 2.8em; font-family: 'Concert One', sans-serif; text-shadow: 2px 2px 2px black">
+                    TALENCE
+                    MÉDIATION</span></h2>
+                    <p class="bold">La médiation familiale s’adresse aux familles (au sens large)
+                        concernées par un conflit qu’elles n’arrivent
+                        pas à résoudre par elles-mêmes oue communication rompue. </p>
+                    <p class="regular">Vous vivez une séparation, un conflit avec un parent…
+                        Je vous reçois sur Talence, dans la singularité de votre demande. Vous pouvez me solliciter à
+                        tout
+                        moment : en amont du conflit, avant toute démarche en justice, pendant ou après toute procédure.
+                    </p>
+                    <p style="font-family: 'Oooh Baby', cursive; text-align: center; font-style: italic; font-size: 1.6em;">
+                        <span style="font-family: 'Space Grotesk', sans-serif; font-size: 1.5em;">"</span>Les gens n’ont
+                        pas
+                        besoin de conseils, ils ont besoin de compréhension.<span
+                                style="font-family: 'Space Grotesk', sans-serif; font-size: 1.5em;">"</span></p>
+                </div>
+                <div class="intro-text-2">
+                    <h3><span class="light"
+                              style="font-size: 2.7em; font-family: 'Concert One', sans-serif;">DIALOGUONS</span></h3>
+                    <p>Vous êtes confronté.e.s à un conflit qui entraîne une rupture de relation, des problèmes de
+                        communication, la médiation familiale vous offre un espace de parole, un cadre approprié. Vous
+                        pouvez ainsi exprimer vos ressentis et attentes en toute confiance en tenant compte de l’intérêt
+                        de
+                        l’enfant.</p>
+                    <h3><span class="light"
+                              style="font-size: 2.7em; font-family: 'Concert One', sans-serif;">UNE QUESTION ?</span>
+                    </h3>
+                    <p>Nous pouvons convenir d’un premier appel téléphonique afin de discuter de vos interrogations, vos
+                        attentes... Rien ne vous oblige à débuter de véritables séances par la suite.</p>
+                    <button class="button-1"><span class="bold" style="color: white;">Prendre rendez-vous</span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <div class="second-container">
+        {% include 'home/mediation_block.html.twig' %}
+    </div>
+    <div class=third-container>
+        {% include 'home/third_block.html.twig' %}
+    </div>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/Doda/Documents/Talence-Médiation/médiation/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/Doda/Documents/Talence-Médiation/médiation/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
-    </ul>
-</div>
 {% endblock %}

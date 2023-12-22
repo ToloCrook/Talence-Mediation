@@ -1,0 +1,31 @@
+.second-container {
+    color: #4E6A2B;
+    margin-top: 65vh;
+    /*position: static;*/
+}
+
+.second-block {
+    color: #4E6A2B;
+    /*max-width: 70%;*/
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    /*margin: auto;*/
+}
+
+.second-block-text {
+    max-width: 40%;
+    margin-right: 8em;
+}
+
+.second-block-image {
+    max-width: 60%;
+    margin-left: 8em;
+}
+
+.second-block-text-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}

@@ -5,6 +5,15 @@
     <title>{% block title %}Welcome!{% endblock %}</title>
     <link rel="icon"
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+{#    <link href="https://fonts.googleapis.com/css2?css2?family=Oooh+Baby&family=Poppins:wght@100;200&display=swap" rel="stylesheet">#}
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Oooh+Baby&family=Poppins:wght@100;200&family=Space+Grotesk&display=swap" rel="stylesheet">
+    <style>
+        /*
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+        */
+    </style>
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
@@ -14,6 +23,14 @@
     {% endblock %}
 </head>
 <body>
+<div id="dsk-navbar">
+    <ul id="dsk-navbar-list">
+        <li class="font-black">La médiation</li>
+        <li>Mon approche</li>
+        <li>Mon expérience</li>
+        <li>Vous avez une question ?</li>
+    </ul>
+</div>
 {% block body %}
 {% endblock %}
 

@@ -1,0 +1,42 @@
+.third-container {
+    color: white;
+}
+.second-background-img {
+    opacity: 40%;
+    max-height: 65vh;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    object-fit: cover;
+    margin: 0;
+    z-index: 0;
+}
+
+.green-background-2 {
+    background: #4E6A2B;
+    opacity: 65%;
+    height: 65vh;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.third-block-text-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3vh;
+}
+
+
+.mon-approche {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.mon-experience {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}

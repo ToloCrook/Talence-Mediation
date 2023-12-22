@@ -1,0 +1,18 @@
+#dsk-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1.5em;
+
+}
+#dsk-navbar-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li {
+    color: #4E6A2B;
+    padding-left: 1vw;
+    font-weight: 800;
+}

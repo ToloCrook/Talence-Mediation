@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: lightgray;
+* {
+    /*padding: 0.5rem;*/
+    font-family: 'Poppins', sans-serif;
 }
+body {
+    background-color: white;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.regular {
+    font-weight: 300;
+}
+
+.light {
+    font-weight: 100;
+}
+
+
