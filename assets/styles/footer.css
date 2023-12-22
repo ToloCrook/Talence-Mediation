@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 1vw;
+    border-top: 1px solid #4E6A2B;
+    width: 100%;
+    padding: 0;
+    color: #4E6A2B;
+}
+
+.footer-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
