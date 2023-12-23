@@ -13,3 +13,15 @@ import './styles/secondBlock.css';
 import './styles/thirdBlock.css';
 import './styles/lastBlock.css';
 import './styles/footer.css';
+
+
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//   anchor.addEventListener('click', function (e) {
+//     e.preventDefault();
+//
+//     document.querySelector(this.getAttribute('href')).scrollIntoView({
+//       behavior: 'smooth'
+//     });
+//   });
+// });
+

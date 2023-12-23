@@ -14,12 +14,14 @@
 
 .footer-links {
     text-align: center;
+    margin-left: 1em;
 }
 
 .footer-legal {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 1em;
 }
 
 

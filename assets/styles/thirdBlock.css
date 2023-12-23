@@ -1,6 +1,7 @@
 .third-container {
     color: white;
 }
+
 .second-background-img {
     opacity: 40%;
     max-height: 60vh;
@@ -44,3 +45,5 @@
     max-height: 60vh;
     word-wrap: break-word;
 }
+
+

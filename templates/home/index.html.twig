@@ -39,23 +39,25 @@
                     </h3>
                     <p>Nous pouvons convenir d’un premier appel téléphonique afin de discuter de vos interrogations, vos
                         attentes... Rien ne vous oblige à débuter de véritables séances par la suite.</p>
-                    <button class="button-1"><span class="bold" style="color: white;">Prendre rendez-vous</span>
+                    <a href="#last-container"></a><button class="button-1"><span class="bold" style="color: white;">Prendre rendez-vous</span>
                     </button>
                 </div>
             </div>
         </div>
 
-    <div class="second-container">
+    <div class="second-container" id="second-container">
         {% include 'home/mediation_block.html.twig' %}
     </div>
-    <div class=third-container>
+    <div class=third-container id="third-container">
         {% include 'home/third_block.html.twig' %}
     </div>
-    <div class="last-container">
+    <div class="last-container" id="last-container">
         {% include 'home/last_block.html.twig' %}
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
         {% include 'home/footer.html.twig' %}
     </div>
 
 {% endblock %}
+
+

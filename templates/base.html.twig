@@ -25,16 +25,28 @@
 <body>
 <div id="dsk-navbar">
     <ul id="dsk-navbar-list">
-        <li class="font-black">La médiation</li>
-        <li>Mon approche</li>
-        <li>Mon expérience</li>
-        <li>Vous avez une question ?</li>
+        <a href="#second-container"><li class="font-black">La médiation</li></a>
+        <a href="#third-container"><li>Mon approche</li></a>
+        <a href="#third-container"><li>Mon expérience</li></a>
+        <a href="#last-container"><li>Vous avez une question ?</li></a>
     </ul>
 </div>
 {% block body %}
 {% endblock %}
 
 <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
 
 </body>
 </html>
