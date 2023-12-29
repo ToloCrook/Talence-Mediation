@@ -8,7 +8,7 @@
     padding: 0;
     position: absolute;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .main-background-img {
@@ -19,7 +19,7 @@
     position: absolute;
     object-fit: cover;
     margin: 0;
-    z-index: 0;
+    z-index: -1;
 }
 
 .intro-text-bloc {
@@ -28,8 +28,8 @@
     justify-content: space-between;
     color: white;
     height: 60vh;
-    position: relative;
-    z-index: 1;
+    /*position: relative;*/
+    /*z-index: 1;*/
 }
 
 .intro-text {
@@ -61,6 +61,23 @@
     /*opacity: 20%;*/
     color: white;
     align-self: center;
+    margin: auto;
+    /*text-align: center;*/
     border: none;
     box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+
+.button-bis {
+    border-radius: 5em;
+    width: 15vw;
+    /*padding: 0.8em;*/
+    background-color: #4E6A2B;
+    /*opacity: 20%;*/
+    color: white;
+    align-self: center;
+    /*text-align: center;*/
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
 }
