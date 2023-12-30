@@ -17,13 +17,20 @@
     </div>
 
     <div class="form">
-        <form class="form-display" method="post">
+        {{ dump(app.flashes) }}
+        {% for message in app.flashes %}
+        <p>{{ message }}</p>
+        {% endfor %}
+{#        {% for message in app.flashes('success') %}#}
+{#        <p>{{ message }}</p>#}
+{#        {% endfor %}#}
+        <form action="{{ path('app_form') }}" class="form-display" method="post">
             <label for="email">Email</label>
-            <input type="email">
+            <input type="email" name="email">
             <label for="object">Objet</label>
-            <input type="text">
+            <input type="text" name="object">
             <label for="message">Message</label>
-            <textarea style="height: 20vw;"></textarea>
+            <textarea style="height: 20vw;" name="message"></textarea>
             <input type="submit" class="button-2">
         </form>
     </div>
